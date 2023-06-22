@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %}View Product{% endblock title %}
+{% block content %}
+<div class="card">
+    <div class="card-/body">
+        <h1>{{products.productname}}</h1>
+        <div class="card-detail">
+            <h3>Price- {{products.price}}</h3>
+            <p>{{products.description}}</p>
+        </div>
+
+    </div>
+</div>
+
+{% endblock content %}
